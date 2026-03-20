@@ -22,7 +22,7 @@ const Nav = ({ t }: { t: ReturnType<typeof getTranslations> }) => (
   <nav className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-lg">
     <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
       <a href="/" className="flex items-center gap-2.5">
-        <img src={dropflowIcon} alt="DropFlow" className="h-8 w-8" />
+        <img src={dropflowIcon} alt="DropFlow" className="h-8 w-8 rounded-full" />
         <span className="text-xl font-bold tracking-tight text-foreground">DropFlow</span>
       </a>
       <Button asChild size="sm" className="rounded-full px-5">
