@@ -149,7 +149,7 @@ const Footer = ({ t }: { t: ReturnType<typeof getTranslations> }) => (
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
         >
-          {t.footer.builtBy} <img src={kultLogo} alt="Kult Technology" className="h-5" />
+          {t.footer.builtBy} <img src={kultIcon} alt="Kult Technology" className="h-5 w-5 rounded-full" />
         </a>
       </div>
       <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} DropFlow</p>
