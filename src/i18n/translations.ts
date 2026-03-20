@@ -60,7 +60,7 @@ const translations = {
       titleLine1: "Zautomatyzuj Swój",
       titleLine2: "Workflow Dropshippingowy",
       subtitle:
-        "Połącz swój sklep Shoper z AliExpress. Synchronizuj zamówienia automatycznie, eliminuj błędy i śledź zyski — wszystko z jednego panelu.",
+        "Połącz swój sklep Shoper z AliExpress. Synchronizuj zamówienia automatycznie, eliminuj błędy i śledź zyski — wszystko w jednym miejscu.",
       cta: "Rozpocznij",
     },
     features: {
@@ -71,7 +71,7 @@ const translations = {
       orderAutomation: {
         title: "Automatyzacja zamówień",
         description:
-          "Automatycznie synchronizuj dane klientów i zamówień z Shoper do AliExpress. Koniec z kopiowaniem — mniej błędów i szybsza realizacja.",
+          "Automatycznie synchronizuj dane klientów i zamówień z Shoper do AliExpress. Koniec z kopiowaniem, mniej błędów i szybsza realizacja.",
       },
       profitAnalytics: {
         title: "Analityka zysków",
