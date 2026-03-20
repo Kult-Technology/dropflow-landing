@@ -1,4 +1,4 @@
-import { ArrowRight, RefreshCw, BarChart3, FileSpreadsheet, Link2, Zap, LayoutDashboard } from "lucide-react";
+import { ArrowRight, RefreshCw, BarChart3, FileSpreadsheet, Link2, Zap, LayoutDashboard, ShoppingBag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import dropflowIcon from "@/assets/dropflow-icon.png";
 import kultLogo from "@/assets/kulttechnology.png";
@@ -65,6 +65,13 @@ const features = [
     description:
       "Export fully matched order data with calculated margins. Perfect for accounting, financial reconciliation, or custom analysis in Excel.",
   },
+  {
+    icon: ShoppingBag,
+    title: "Shopify Integration",
+    description:
+      "Shopify support is on the way. Soon you'll be able to connect your Shopify store alongside Shoper for a unified dropshipping workflow.",
+    comingSoon: true,
+  },
 ];
 
 const Features = () => (
@@ -78,12 +85,17 @@ const Features = () => (
           DropFlow handles the tedious parts of dropshipping so you can focus on growing your business.
         </p>
       </div>
-      <div className="mt-16 grid gap-8 sm:grid-cols-3">
+      <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
         {features.map((f) => (
           <div
             key={f.title}
-            className="group rounded-2xl border border-border bg-card p-8 transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
+            className="group relative rounded-2xl border border-border bg-card p-8 transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
           >
+            {f.comingSoon && (
+              <span className="absolute right-4 top-4 rounded-full bg-accent/15 px-2.5 py-0.5 text-xs font-medium text-accent">
+                Coming Soon
+              </span>
+            )}
             <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary">
               <f.icon className="h-6 w-6" />
             </div>
