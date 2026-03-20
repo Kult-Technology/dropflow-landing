@@ -136,7 +136,7 @@ const Footer = ({ t }: { t: ReturnType<typeof getTranslations> }) => (
   <footer className="border-t border-border py-12">
     <div className="mx-auto flex max-w-6xl flex-col items-center gap-8 px-6 sm:flex-row sm:justify-between">
       <div className="flex items-center gap-2.5">
-        <img src={dropflowIcon} alt="DropFlow" className="h-6 w-6" />
+        <img src={dropflowIcon} alt="DropFlow" className="h-6 w-6 rounded-full" />
         <span className="font-semibold text-foreground">DropFlow</span>
       </div>
       <div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-6">
