@@ -1,7 +1,7 @@
 import { ArrowRight, RefreshCw, BarChart3, FileSpreadsheet, Link2, Zap, LayoutDashboard, ShoppingBag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import dropflowIcon from "@/assets/dropflow-icon.png";
-import kultLogo from "@/assets/kulttechnology.png";
+import kultIcon from "@/assets/kult-technology-icon.png";
 import { useMemo } from "react";
 import { detectLocale, getTranslations } from "@/i18n/translations";
 
@@ -22,7 +22,7 @@ const Nav = ({ t }: { t: ReturnType<typeof getTranslations> }) => (
   <nav className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-lg">
     <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
       <a href="/" className="flex items-center gap-2.5">
-        <img src={dropflowIcon} alt="DropFlow" className="h-8 w-8" />
+        <img src={dropflowIcon} alt="DropFlow" className="h-8 w-8 rounded-full" />
         <span className="text-xl font-bold tracking-tight text-foreground">DropFlow</span>
       </a>
       <Button asChild size="sm" className="rounded-full px-5">
@@ -136,7 +136,7 @@ const Footer = ({ t }: { t: ReturnType<typeof getTranslations> }) => (
   <footer className="border-t border-border py-12">
     <div className="mx-auto flex max-w-6xl flex-col items-center gap-8 px-6 sm:flex-row sm:justify-between">
       <div className="flex items-center gap-2.5">
-        <img src={dropflowIcon} alt="DropFlow" className="h-6 w-6" />
+        <img src={dropflowIcon} alt="DropFlow" className="h-6 w-6 rounded-full" />
         <span className="font-semibold text-foreground">DropFlow</span>
       </div>
       <div className="flex flex-col items-center gap-3 sm:flex-row sm:gap-6">
@@ -149,7 +149,7 @@ const Footer = ({ t }: { t: ReturnType<typeof getTranslations> }) => (
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
         >
-          {t.footer.builtBy} <img src={kultLogo} alt="Kult Technology" className="h-5" />
+          {t.footer.builtBy} <img src={kultIcon} alt="Kult Technology" className="h-5 w-5 rounded-full" />
         </a>
       </div>
       <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} DropFlow</p>
