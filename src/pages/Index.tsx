@@ -1,7 +1,7 @@
 import { ArrowRight, RefreshCw, BarChart3, FileSpreadsheet, Link2, Zap, LayoutDashboard, ShoppingBag } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import dropflowIcon from "@/assets/dropflow-icon.png";
-import kultLogo from "@/assets/kulttechnology.png";
+import kultIcon from "@/assets/kult-technology-icon.png";
 import { useMemo } from "react";
 import { detectLocale, getTranslations } from "@/i18n/translations";
 
