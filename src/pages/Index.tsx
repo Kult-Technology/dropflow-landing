@@ -85,12 +85,17 @@ const Features = () => (
           DropFlow handles the tedious parts of dropshipping so you can focus on growing your business.
         </p>
       </div>
-      <div className="mt-16 grid gap-8 sm:grid-cols-3">
+      <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
         {features.map((f) => (
           <div
             key={f.title}
-            className="group rounded-2xl border border-border bg-card p-8 transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
+            className="group relative rounded-2xl border border-border bg-card p-8 transition-all hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5"
           >
+            {f.comingSoon && (
+              <span className="absolute right-4 top-4 rounded-full bg-accent/15 px-2.5 py-0.5 text-xs font-medium text-accent">
+                Coming Soon
+              </span>
+            )}
             <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary">
               <f.icon className="h-6 w-6" />
             </div>
