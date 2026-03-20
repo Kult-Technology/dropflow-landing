@@ -65,6 +65,13 @@ const features = [
     description:
       "Export fully matched order data with calculated margins. Perfect for accounting, financial reconciliation, or custom analysis in Excel.",
   },
+  {
+    icon: ShoppingBag,
+    title: "Shopify Integration",
+    description:
+      "Shopify support is on the way. Soon you'll be able to connect your Shopify store alongside Shoper for a unified dropshipping workflow.",
+    comingSoon: true,
+  },
 ];
 
 const Features = () => (
