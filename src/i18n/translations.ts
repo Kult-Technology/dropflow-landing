@@ -42,7 +42,7 @@ const translations = {
     howItWorks: {
       heading: "How it works",
       subheading: "Get started in minutes — no technical setup required.",
-      connect: { label: "Connect", description: "Link your Shoper store in seconds" },
+      connect: { label: "Connect", description: "Link your Shoper store in minutes" },
       sync: { label: "Sync", description: "Orders push to AliExpress automatically" },
       track: { label: "Track", description: "Monitor everything from one dashboard" },
     },
@@ -92,7 +92,7 @@ const translations = {
     howItWorks: {
       heading: "Jak to działa",
       subheading: "Zacznij w kilka minut — bez konfiguracji technicznej.",
-      connect: { label: "Połącz", description: "Podłącz swój sklep Shoper w kilka sekund" },
+      connect: { label: "Połącz", description: "Podłącz swój sklep Shoper w kilka minut" },
       sync: { label: "Synchronizuj", description: "Zamówienia trafiają na AliExpress automatycznie" },
       track: { label: "Śledź", description: "Monitoruj wszystko z jednego panelu" },
     },

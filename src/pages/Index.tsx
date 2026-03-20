@@ -144,7 +144,7 @@ const Footer = ({ t }: { t: ReturnType<typeof getTranslations> }) => (
           {t.footer.goToApp}
         </a>
         <a
-          href="https://kulttechnology.com"
+          href="https://kulttechnology.pl"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
