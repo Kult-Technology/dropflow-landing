@@ -103,13 +103,13 @@ const translations = {
   },
 } as const;
 
-export type Translations = typeof translations.en;
+export type Translations = (typeof translations)["en"];
 
 export function detectLocale(): Locale {
   const lang = navigator.language || (navigator as any).userLanguage || "en";
   return lang.startsWith("pl") ? "pl" : "en";
 }
 
-export function getTranslations(locale: Locale): Translations {
+export function getTranslations(locale: Locale) {
   return translations[locale];
 }
