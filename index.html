@@ -3,81 +3,132 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DropFlow — Dropshipping Automation for Shoper & AliExpress</title>
-    <meta name="description" content="Automate your dropshipping workflow. DropFlow connects Shoper stores with AliExpress — sync orders, track profits, and export data effortlessly." />
+
+    <title>DropFlow - Dropshipping automation for Shoper and Shopify</title>
+    <meta
+      name="description"
+      content="DropFlow connects Shoper and Shopify stores to AliExpress: orders placed automatically, tracking and status synced back, margins visible on every order."
+    />
     <meta name="author" content="Kult Technology" />
-    <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#1d4ed8" />
-    <meta name="keywords" content="dropshipping, shoper, aliexpress, order automation, profit analytics, ecommerce, dropflow, kult technology" />
-    <link rel="canonical" href="https://dropflow.dev" />
+    <!-- max-image-preview:large opts the OG card into large thumbnails in search results -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="canonical" href="https://dropflow.dev/" />
+    <!-- Both locale URLs list the same alternate set, which is what makes them a pair. -->
+    <link rel="alternate" hreflang="en" href="https://dropflow.dev/" />
+    <link rel="alternate" hreflang="pl" href="https://dropflow.dev/pl" />
+    <link rel="alternate" hreflang="x-default" href="https://dropflow.dev/" />
+
+    <meta name="application-name" content="DropFlow" />
+    <meta name="apple-mobile-web-app-title" content="DropFlow" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0b1119" media="(prefers-color-scheme: dark)" />
+
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <meta name="msapplication-TileColor" content="#1d4ed8" />
-    <meta name="msapplication-config" content="/browserconfig.xml" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="DropFlow — Dropshipping Automation for Shoper & AliExpress" />
-    <meta property="og:description" content="Connect Shoper with AliExpress. Automate orders, track profits, and export matched data — all from one dashboard." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://dropflow.dev" />
-    <meta property="og:image" content="https://dropflow.dev/dropflow-og-light.png" />
+    <meta property="og:site_name" content="DropFlow" />
+    <meta property="og:title" content="DropFlow - Dropshipping automation for Shoper and Shopify" />
+    <meta
+      property="og:description"
+      content="Orders go out automatically, tracking and status come back, margins stay visible. Shoper and Shopify from one account."
+    />
+    <meta property="og:url" content="https://dropflow.dev/" />
+    <meta property="og:image" content="https://dropflow.dev/dropflow-og.png" />
+    <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="DropFlow — Dropshipping automation platform" />
-    <meta property="og:site_name" content="DropFlow" />
+    <meta
+      property="og:image:alt"
+      content="Shoper and Shopify connected to AliExpress through DropFlow: orders out, tracking back, margins visible"
+    />
     <meta property="og:locale" content="en_US" />
     <meta property="og:locale:alternate" content="pl_PL" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="DropFlow — Dropshipping Automation" />
-    <meta name="twitter:description" content="Connect Shoper with AliExpress. Automate orders, track profits, and export matched data." />
-    <meta name="twitter:image" content="https://dropflow.dev/dropflow-og-light.png" />
-    <meta name="twitter:image:alt" content="DropFlow — Dropshipping automation platform" />
+    <meta name="twitter:title" content="DropFlow - Dropshipping automation" />
+    <meta name="twitter:description" content="Shoper and Shopify to AliExpress. Orders out, tracking back, margins visible." />
+    <meta name="twitter:image" content="https://dropflow.dev/dropflow-og.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Shoper and Shopify connected to AliExpress through DropFlow: orders out, tracking back, margins visible"
+    />
 
-    <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "DropFlow",
-      "url": "https://dropflow.dev",
-      "applicationCategory": "BusinessApplication",
-      "operatingSystem": "Web",
-      "description": "Dropshipping automation platform connecting Shoper stores with AliExpress. Sync orders, track profits, and export data.",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "PLN",
-        "availability": "https://schema.org/InStock"
-      },
-      "creator": {
-        "@type": "Organization",
-        "name": "Kult Technology",
-        "url": "https://kulttechnology.pl"
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://dropflow.dev/#organization",
+            "name": "DropFlow",
+            "url": "https://dropflow.dev/",
+            "logo": "https://dropflow.dev/android-chrome-512x512.png",
+            "email": "kontakt@kulttechnology.pl",
+            "parentOrganization": {
+              "@type": "Organization",
+              "name": "Kult Technology",
+              "url": "https://kulttechnology.pl"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://dropflow.dev/#website",
+            "url": "https://dropflow.dev/",
+            "name": "DropFlow",
+            "inLanguage": ["en", "pl"],
+            "publisher": { "@id": "https://dropflow.dev/#organization" }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "DropFlow",
+            "applicationCategory": "BusinessApplication",
+            "applicationSubCategory": "Dropshipping automation",
+            "operatingSystem": "Web",
+            "url": "https://dropflow.dev/",
+            "description": "Dropshipping automation platform connecting Shoper and Shopify stores with AliExpress: automatic order placement, tracking sync and profit analytics.",
+            "inLanguage": ["en", "pl"],
+            "featureList": [
+              "Automatic order placement at AliExpress",
+              "Tracking number and status sync back to the store",
+              "Real supplier cost and margin per order",
+              "Shoper and Shopify from one account",
+              "MCP connector for analysing store data in plain language",
+              "Browser extension that fills AliExpress shipping forms"
+            ],
+            "publisher": { "@id": "https://dropflow.dev/#organization" },
+            "offers": {
+              "@type": "Offer",
+              "availability": "https://schema.org/InStock",
+              "price": "0",
+              "priceCurrency": "USD",
+              "description": "Contact for a quote"
+            }
+          }
+        ]
       }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "DropFlow",
-      "url": "https://dropflow.dev",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://app.dropflow.dev/search?q={search_term_string}",
-        "query-input": "required name=search_term_string"
-      }
-    }
     </script>
   </head>
 
   <body>
     <div id="root"></div>
+    <!-- Crawlers and readers without JavaScript still get the proposition and a way to reach us. -->
+    <noscript>
+      <h1>DropFlow - Dropshipping automation for Shoper and Shopify</h1>
+      <p>
+        DropFlow connects your Shoper and Shopify stores to AliExpress. Orders go out automatically,
+        tracking numbers and statuses come back automatically, and margins stay visible at every step.
+      </p>
+      <p>
+        <a href="mailto:kontakt@kulttechnology.pl">Book a demo</a> &middot;
+        <a href="https://app.dropflow.dev">Log in to the app</a>
+      </p>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -7,16 +7,31 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies and build output
 node_modules
 dist
 dist-ssr
 *.local
+.vercel
+coverage
+*.tsbuildinfo
+.eslintcache
+
+# Secrets — never commit real values
+.env
+.env.*
+!.env.example
+
+# Tooling scratch directories
+.claude/
+design/
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
+**/.DS_Store
 *.suo
 *.ntvs*
 *.njsproj

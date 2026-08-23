@@ -1,0 +1,26 @@
+{
+  "en": {
+    "title": "DropFlow - Dropshipping automation for Shoper and Shopify",
+    "description": "DropFlow connects Shoper and Shopify stores to AliExpress: orders placed automatically, tracking and status synced back, margins visible on every order.",
+    "socialTitle": "DropFlow - Dropshipping automation for Shoper and Shopify",
+    "socialDescription": "Orders go out automatically, tracking and status come back, margins stay visible. Shoper and Shopify from one account.",
+    "imageAlt": "Shoper and Shopify connected to AliExpress through DropFlow: orders out, tracking back, margins visible",
+    "ogLocale": "en_US",
+    "noscriptHeading": "DropFlow - Dropshipping automation for Shoper and Shopify",
+    "noscriptBody": "DropFlow connects your Shoper and Shopify stores to AliExpress. Orders go out automatically, tracking numbers and statuses come back automatically, and margins stay visible at every step.",
+    "noscriptDemo": "Book a demo",
+    "noscriptLogin": "Log in to the app"
+  },
+  "pl": {
+    "title": "DropFlow - Automatyzacja dropshippingu dla Shoper i Shopify",
+    "description": "DropFlow łączy sklepy Shoper i Shopify z AliExpress: zamówienia składane automatycznie, śledzenie i statusy wracają same, marża widoczna przy każdym zamówieniu.",
+    "socialTitle": "DropFlow - Automatyzacja dropshippingu dla Shoper i Shopify",
+    "socialDescription": "Zamówienia wychodzą same, numery śledzenia i statusy wracają same, a marże są widoczne. Shoper i Shopify z jednego konta.",
+    "imageAlt": "Shoper i Shopify połączone z AliExpress przez DropFlow: zamówienia wychodzą, śledzenie wraca, marże widoczne",
+    "ogLocale": "pl_PL",
+    "noscriptHeading": "DropFlow - Automatyzacja dropshippingu dla Shoper i Shopify",
+    "noscriptBody": "DropFlow łączy Twoje sklepy Shoper i Shopify z AliExpress. Zamówienia wychodzą same, numery śledzenia i statusy wracają same, a marże są widoczne na każdym etapie.",
+    "noscriptDemo": "Zamów demo",
+    "noscriptLogin": "Zaloguj się do aplikacji"
+  }
+}
