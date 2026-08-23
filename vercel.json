@@ -1,8 +1,21 @@
 {
   "rewrites": [
+    { "source": "/pl", "destination": "/pl.html" }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "cookie", "key": "df_signed_in", "value": "1" }],
+      "missing": [{ "type": "query", "key": "stay" }],
+      "destination": "https://app.dropflow.dev/",
+      "permanent": false
+    },
     {
       "source": "/pl",
-      "destination": "/pl.html"
+      "has": [{ "type": "cookie", "key": "df_signed_in", "value": "1" }],
+      "missing": [{ "type": "query", "key": "stay" }],
+      "destination": "https://app.dropflow.dev/",
+      "permanent": false
     }
   ],
   "headers": [
